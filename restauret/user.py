@@ -27,5 +27,9 @@ class Admin(User):
 add=Admin('Admin','admin@gmail.com',52010,'sherpur')
 add.add_empoloyee('moinul','asifur@gmail.com',1252,'asherpu',24,'aroiba',4500)
 
+
+
 add.view_employe()
+
+
         
