@@ -21,15 +21,20 @@ class Admin(User):
         print(f"{name} is added !")
     def view_employe(self):
         print("Empoloyee List !")
-        for emp in self.empoloyes:
+        for emp in self.empoloyes   :
             print(emp.name,emp.email,emp.phone,emp.address)
 
 add=Admin('Admin','admin@gmail.com',52010,'sherpur')
+
+
 add.add_empoloyee('moinul','asifur@gmail.com',1252,'asherpu',24,'aroiba',4500)
 
 
 
 add.view_employe()
+
+def sum(n1,n2):
+    return n1+n2
 
 
         
